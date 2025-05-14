@@ -34,8 +34,8 @@ const DataProvider = ({ children }: DataProviderProps) => {
   const url2 = "http://192.168.7.113:3000/data/mandi";
   const url11 = "http://192.168.100.243:3000/data/pizza";
   const url22 = "http://192.168.100.243:3000/data/mandi";
-  const url111 = "http://192.168.7.111:3000/data/pizza";
-  const url222 = "http://192.168.7.111:3000/data/mandi";
+  const url111 = "http://192.168.7.112:3000/data/pizza";
+  const url222 = "http://192.168.7.112:3000/data/mandi";
   const mobileDataPIzzaUrl = "http://192.168.43.177:3000/data/pizza";
   const mobileDataMandiUrl = "http://192.168.43.177:3000/data/mandi";
 

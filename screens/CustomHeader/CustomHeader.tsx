@@ -8,7 +8,11 @@ import { View, Text, Image, StyleSheet } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 
-const CustomHeader = () => {
+interface CustomHeaderProps {
+  currRoute: string;
+}
+
+const CustomHeader = ({ currRoute }: CustomHeaderProps) => {
   const route = useRoute();
   const navigation = useNavigation();
   const insets = useSafeAreaInsets();
